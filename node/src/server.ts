@@ -1,9 +1,7 @@
-import express from 'express';
-import 'reflect-metadata'
-import './database'
+// 1° Aula: #rumoaoproximonivel
+// 2° Aula: #jornadainfinita
+// 3° Aula: #focopraticagrupo
 
-const app = express();
+import { app } from "./app";
 
-
-
-app.listen(3333, () => console.log('Server is running!'))
+app.listen(3333, () => console.log("Server is running!"))
